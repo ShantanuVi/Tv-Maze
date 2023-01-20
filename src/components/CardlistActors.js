@@ -8,7 +8,7 @@ function CardlistActors({ person }) {
       // console.log(image);
 
       if (image === null) {
-        return "No Result Found";
+        return "";
       }
       return (
         <Card
